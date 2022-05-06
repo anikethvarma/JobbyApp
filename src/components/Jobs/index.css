@@ -1,0 +1,135 @@
+.jobs-bg {
+  background-color: #000000;
+  min-height: 88vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.jobs-main-container {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jobs-left-container {
+  width: 100%;
+}
+.jobs-left-sub-container {
+  margin-bottom: 10px;
+}
+.jobs-left-hr {
+  border: solid 1px #7e858e;
+  margin-bottom: 28px;
+}
+.jobs-left-sub-container-text {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.jobs-left-sub-container-mini {
+  list-style-type: none;
+  padding: 0;
+}
+.jobs-right-container {
+  width: 100%;
+}
+.jobs-right-ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+.jobs-right-search-bar-bg-mobile-search {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.jobs-right-search-bar-bg-mobile-search {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.jobs-right-search-bar-bg-desktop-search {
+  display: none;
+}
+
+.jobs-right-search-bar {
+  display: flex;
+  border: solid 1px #7e858e;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 500px;
+}
+.jobs-right-search-input {
+  background-color: transparent;
+  flex-grow: 1;
+  border: 0;
+  height: 40px;
+  padding: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #ffffff;
+}
+.jobs-right-search-icon-container {
+  background-color: #000000;
+}
+.jobs-right-search-button {
+  background-color: #272727;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  border: 0;
+  border-left: solid 1px #7e858e;
+}
+.search-icon {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .jobs-main-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .jobs-left-container {
+    width: 24%;
+  }
+  .jobs-right-container {
+    width: 76%;
+  }
+  .jobs-right-ul {
+    width: 90%;
+    margin-left: auto;
+  }
+  .jobs-right-search-bar-bg-mobile-search {
+    display: none;
+  }
+  .jobs-right-search-bar-bg-desktop-search {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+  }
+}
+.jobs-no-jobs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.jobs-no-jobs-image {
+  width: 90%;
+  max-width: 300px;
+}
+.jobs-no-jobs-main-text {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 24px;
+}
+.jobs-no-jobs-text {
+  font-family: Roboto;
+  color: #f8fafc;
+  font-size: 14px;
+}

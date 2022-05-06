@@ -1,0 +1,47 @@
+.profile-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.profile-image {
+  height: 50px;
+  width: 50px;
+}
+.profile-main-text {
+  font-family: Roboto;
+  color: #4f46e5;
+  font-weight: 500;
+  font-size: 18px;
+}
+.profile-text {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 0;
+}
+.loader-container {
+  height: 208px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-failure-bg {
+  height: 208px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-failure-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-family: Roboto;
+  border: 0;
+  height: 24px;
+  width: 100px;
+  border-radius: 5px;
+}
