@@ -131,7 +131,21 @@ class Jobs extends Component {
 
   onSuccessRetrievingJobs = () => {
     const {jobsData} = this.state
-
+    if (jobsData.length === 0) {
+      return (
+        <div className="jobs-no-jobs-container">
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/no-jobs-img.png"
+            alt="no jobs"
+            className="jobs-no-jobs-image"
+          />
+          <h1 className="jobs-no-jobs-main-text">No Jobs Found</h1>
+          <p className="jobs-no-jobs-text">
+            We could not find any jobs. Try other filters
+          </p>
+        </div>
+      )
+    }
     return (
       <ul className="jobs-right-ul">
         {jobsData.map(eachElement => (

@@ -57,7 +57,7 @@ class Profile extends Component {
               alt="profile"
               className="profile-image"
             />
-            <p className="profile-main-text">{name}</p>
+            <h1 className="profile-main-text">{name}</h1>
             <p className="profile-text">{shortBio}</p>
           </div>
         )
